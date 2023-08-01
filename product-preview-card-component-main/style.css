@@ -70,6 +70,7 @@ button {
     border: none;
     color: #fff;
     border-radius: 10px;
+    transition: background 0.2s;
 }
 
 svg {
@@ -82,7 +83,7 @@ span {
 }
 
 button:hover {
-    opacity: .8;
+    background: #1a4031;
 }
 
 /* =============================================================
