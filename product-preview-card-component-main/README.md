@@ -79,4 +79,4 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Author
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [@spirit_aatma](https://www.twitter.com/stack_spirit)
+- Twitter - [@stack_spirit](https://www.twitter.com/stack_spirit)
