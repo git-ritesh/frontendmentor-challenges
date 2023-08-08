@@ -73,14 +73,10 @@ button {
     border-radius: 10px;
     transition: background 0.2s;
 }
-
-svg {
+button::before {
     vertical-align: middle;
-    margin-right: 10px;
-}
-
-span {
-    vertical-align: middle;
+    margin: 5px;
+    content: url(images/icon-cart.svg);
 }
 
 button:hover {
