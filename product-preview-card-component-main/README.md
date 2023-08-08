@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -41,7 +39,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ### Links
 
-- Solution URL : [View](https://github.com/git-ritesh/frontendmentor-challenges/tree/master/product-preview-card-component-main)
+- Solution URL : [View](https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-SqAqgGGUB_)
 - Live Site URL: [View Webpage](https://stackritesh.me/frontendmentor-challenges/product-preview-card-component-main/index.html)
 
 ### Built with
