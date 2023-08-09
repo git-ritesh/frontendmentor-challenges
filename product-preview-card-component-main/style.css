@@ -109,7 +109,7 @@ button:hover {
 
 
     .price {
-        column-gap: 10px;
+        column-gap: 10%;
     }
 
     button {
