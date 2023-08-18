@@ -27,8 +27,8 @@ QR Code Component Responsive challenge is a very basic challenge in which you ha
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View](https://www.frontendmentor.io/solutions/responsive-qr-code-component-MFDbdX6DxU)
+- Live Site URL: [Live Webpage](https://git-ritesh.github.io/frontendmentor-challenges/qr-code-component-main/index.html)
 
 ## My process
 
