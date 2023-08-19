@@ -29,8 +29,9 @@ img {
     width: 100%;
 }
 
-h2 {
+h1 {
     color: var(--darkblue);
+    font-size: 1.5rem;
 }
 
 .container {
