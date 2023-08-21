@@ -34,12 +34,18 @@ body {
   font-family: 'Hanken Grotesk', sans-serif;  
 }
 
+main {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+
 body p {
   font-size: 1.125rem;
 }
 
 .hero, .detail-container {
-  width: 320px;  
+  width: 20rem;  
   margin: 0 auto;
 }
 
@@ -48,18 +54,20 @@ body p {
   margin: 0 auto;
   background: linear-gradient(var(--bg-light-slate-blue), var(--bg-light-royal-blue));
   text-align: center;
-  border-bottom-left-radius: 2em;
-  border-bottom-right-radius: 2em;
-
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .your-result {
-  font-size: .925rem;
+  font-size: 1rem;
   color: var(--light-lavender);
   font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 1rem;
 }
 
 .score-circle {
@@ -94,6 +102,7 @@ body p {
 }
 
 .hero__para {
+  padding: 0;
   margin-top: .5rem;
   margin-bottom: 1rem;
   font-size: .8rem;
@@ -104,17 +113,16 @@ body p {
   padding: 1rem 1.5rem;
 }
 
-.summary {
-  margin: 0;
-  padding-bottom: 0;
-  font-weight: bold;
-  font-size: .925rem;
+.summary, .your-result {
+  padding: 0;
+  margin-top: 0;
 }
 
 .subject  {
   display: flex;
   justify-content: space-between;
   border-radius: .5rem;
+  padding-right: .75rem;
 }
 
 .subject + .subject {
@@ -122,7 +130,7 @@ body p {
 }
 
 .subject p, .summary, .your-result {
-  font-size: .925rem;
+  font-size: 1rem;
 }
 
 .subject p {
@@ -139,9 +147,14 @@ button {
   border: none;
   width: 100%;
   padding: .9rem 1rem;
-  margin-top: .25rem;
+  margin-top: 1rem;
   border-radius: 5rem;
   cursor: pointer;
+  transition: background .2s ;
+}
+
+button:hover {
+  background: linear-gradient(var(--bg-light-slate-blue), var(--bg-light-royal-blue));
 }
 
 .clr-darkblue {
@@ -151,11 +164,6 @@ button {
 
 .score--grey {
   color: gray;
-
-}
-
-.score-container {
-  padding: 1rem 0;
 }
 
 .subject--light-red {
@@ -192,18 +200,62 @@ button {
   margin: 0 .75rem;
 }
 
-@media (min-width:600px) {
+/* ===================================
+   ========= for Desktop Screen ============
+   =================================== */
+
+@media (min-width:700px) {
+
   body {
     min-height: 100vh;
     display: grid;
     place-content: center;
   }
+
   main {
+    width: 90%;
     display: flex;
+    box-shadow: 5px 5px 20px rgba(224, 224, 224, 0.599) ;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
   }
 
   .hero, .detail-container {
+    width: 50%;
     margin: 0;
+    padding: 2rem;
   }
+
+  .hero {
+    border-radius: 2rem;
+  }
+
+  .hero__para {
+    width: 72%;
+  }
+
+  button {
+    margin-top: 2rem;
+  }
+
+  .summary, .your-result {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem 0;
+  }
+
+  .score-circle {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .scored-marks {
+    font-size: 3rem;
+  }
+
+  .total-marks {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
 }
 
