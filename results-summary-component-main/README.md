@@ -14,7 +14,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -41,9 +40,11 @@ We provide the data for the results in a local `data.json` file. So you can use 
 ### Screenshot
 
 **Mobile Design**
+
 ![Mobile Design image](design/mobile-design.jpg)
 
 **Desktop Design**
+
 ![Desktop Design image](design/desktop-design.jpg)
 
 **My Results Summary Solution Preview**
@@ -52,70 +53,43 @@ We provide the data for the results in a local `data.json` file. So you can use 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
+
 - Live Site URL: [Visit](https://git-ritesh.github.io/frontendmentor-challenges/results-summary-component-main/index.html)
 
 ## My process
+
+#### Followed Mobile First Approach
+_Mobile Design :_
+- Created two cards layout with equal `width` and `padding`. 
+- Added contents in it like `<h1>`, `<p>` & `<div>`(for the circle scorecard.)
+- wrapped up both cards into `<main>` for centering the content.
+_Desktop Design :_
+- set the `.main` to `display: flex;` for making the cards stacked side by side.
+- added `box-shadow` for giving shadow to the `<main>` 
+
+Boom Done !!
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+While I made this project, I learned about how things work in Mobile First Workflow.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Though I'm quite familiar with Flexbox. But I've not done made my hands dirty with CSS Grid. 
+So I'd Like to explore & learn more about Grid, So that I can use also use Grid for making Responsive Layouts. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+ [Learn Grid](https://mozilladevelopers.github.io/playground/css-grid) - Awesome resource for learning Grid by Mozilla developer Network.
 
 ## Author
+- Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
+- Twitter - [@stack_spirit](https://www.twitter.com/stack_spirit)
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
