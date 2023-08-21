@@ -217,7 +217,7 @@ button:hover {
   main {
     width: 90%;
     display: flex;
-    box-shadow: 5px 5px 20px rgba(224, 224, 224, 0.599) ;
+    box-shadow: 5px 5px 20px rgba(190, 181, 199, 0.592) ;
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
   }
