@@ -30,8 +30,11 @@
 }
 
 body { 
-  margin: 0;
   font-family: 'Hanken Grotesk', sans-serif;  
+}
+
+body, .subject p {
+  margin: 0;
 }
 
 main {
@@ -135,7 +138,6 @@ body p {
 
 .subject p {
   padding: .8rem 0;
-  margin: 0;
 }
 
 button {
@@ -258,7 +260,7 @@ button:hover {
   }
 
   .great {
-    font-size: 1.5;
+    font-size: 1.5rem;
   }
 
 }
