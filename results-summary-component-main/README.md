@@ -52,7 +52,7 @@ We provide the data for the results in a local `data.json` file. So you can use 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [View](https://www.frontendmentor.io/solutions/responsive-results-summary-component-using-flexbox-ZrNevwqmoc)
 
 - Live Site URL: [Visit](https://git-ritesh.github.io/frontendmentor-challenges/results-summary-component-main/index.html)
 
