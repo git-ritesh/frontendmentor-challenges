@@ -43,7 +43,8 @@ h1 {
     color: var(--clr-soft-blue);
 }
 
-.flexbox {
+.flexbox, .price, .price::before,
+.time, .time::before {
     display: flex;
     align-items: center;
 }
@@ -98,22 +99,22 @@ h1:hover,
     gap: 1rem;
 }
 
-.price, .time {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-}
-
 .price {
     color: var(--clr-cyan);
     font-weight: 600;
 }
-.price-icon {
+
+.price, .time {
+    gap: .5rem;
+}
+
+.price::before {
     content: url(images/icon-ethereum.svg);
 }
 
-.clock-icon {
+.time::before {
     content: url(images/icon-clock.svg);
+
 }
 
 hr {
