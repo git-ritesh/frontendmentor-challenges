@@ -71,26 +71,23 @@ h1:hover,
     overflow: hidden;
 }
 
-.img__wrapper:hover .overlay {
-    visibility: visible ;
-}
-
-.overlay {
+.img__wrapper::after {
+    content: url(images/icon-view.svg);
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     bottom: 0;
-    background-color: hsla(178, 100%, 50%, 0.425);
+    background-color: rgba(24, 218, 225, 0.401);
     display: flex;
     align-items: center;
     justify-content: center;
     visibility: hidden;
+    transition: .2s ease;
 }
 
-.view-icon {
-    content: url(images/icon-view.svg);
-    /* transition: .2s; */
+ .img__wrapper:hover::after {
+    visibility: visible;
 }
 
 .flexbox.price-info {
