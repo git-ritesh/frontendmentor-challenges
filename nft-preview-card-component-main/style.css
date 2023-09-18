@@ -1,0 +1,132 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-soft-blue: hsl(215, 51%, 70%);
+    --clr-cyan: hsl(178, 100%, 50%);
+    --clr-darkest-blue: hsl(217, 54%, 11%);
+    --clr-darker-blue: hsl(216, 50%, 16%);
+    --clr-dark-blue: hsl(215, 32%, 27%);
+    --clr-white: hsl(0, 0%, 100%);
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+main {
+    background: var(--clr-darkest-blue);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+}
+/* =========== GROUPED PROPERTIES ===========*/
+.white {
+    color: var(--clr-white);
+}
+.soft-blue {
+    color: var(--clr-soft-blue);
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+h1:hover,
+.creator__name .bold:hover {
+    cursor: pointer;
+    color: var(--clr-cyan);
+}
+/* =========== INDIVIDUAL PROPERTIES ===========*/
+.card {
+    width: 90%;
+    max-width: 375px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: var(--clr-darker-blue);
+}
+
+.img__wrapper {
+    position: relative;
+    border-radius: .5rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.img__wrapper:hover .view-icon {
+    visibility: visible ;
+}
+
+.view-icon {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    padding: calc(45% - 9px);
+    content: url(images/icon-view.svg);
+    background-color: hsla(178, 100%, 50%, 0.425);
+    transition: .2s;
+}
+
+.flexbox.price-info {
+    justify-content: space-between;
+}
+
+.flexbox.creator {
+    gap: 1rem;
+}
+
+.price, .time {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.price {
+    color: var(--clr-cyan);
+    font-weight: 600;
+}
+.price-icon {
+    content: url(images/icon-ethereum.svg);
+}
+
+.clock-icon {
+    content: url(images/icon-clock.svg);
+}
+
+hr {
+    border: none;
+    background: hsla(215, 25%, 31%, 0.75);
+    height: 1px;
+    margin: 1rem 0;
+}
+
+.creator__profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+@media (min-width: 375px) {
+    body {
+        font-size: 1rem;
+    }
+}
