@@ -71,18 +71,26 @@ h1:hover,
     overflow: hidden;
 }
 
-.img__wrapper:hover .view-icon {
+.img__wrapper:hover .overlay {
     visibility: visible ;
 }
 
-.view-icon {
-    visibility: hidden;
+.overlay {
     position: absolute;
     top: 0;
-    padding: calc(45% - 9px);
-    content: url(images/icon-view.svg);
+    right: 0;
+    left: 0;
+    bottom: 0;
     background-color: hsla(178, 100%, 50%, 0.425);
-    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.view-icon {
+    content: url(images/icon-view.svg);
+    /* transition: .2s; */
 }
 
 .flexbox.price-info {
