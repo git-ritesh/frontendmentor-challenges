@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-component-DpX3wwT3yY)
 - Live Site URL: [View Webpage](https://git-ritesh.github.io/frontendmentor-challenges/nft-preview-card-component-main/index.html)
 
 ## My process
