@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-pale-blue: hsl(225, 100%, 94%);
+    --clr-bright-blue: hsl(245, 75%, 52%);
+    --clr-very-pale-blue:  hsl(225, 100%, 98%);
+    --clr-desaturated-blue: hsl(224, 23%, 55%);
+    --clr-dark-blue: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+main {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    background-color: var(--clr-pale-blue);
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    width: 100%;
+    margin-top: 1.5rem;
+    border: none;
+    color: var(--clr-very-pale-blue);
+    background: var(--clr-bright-blue);
+
+    box-shadow: 0px 2px 24px var(--clr-desaturated-blue);
+    transition: .2s ease;
+}
+
+a {
+    display: block;
+    font-size: .8rem;
+}
+
+button:hover, a:hover {
+    cursor: pointer;
+    opacity: .7;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: var(--clr-dark-blue);
+    margin: 0;
+}
+
+h1  {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+p {
+    color: var(--clr-desaturated-blue);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.br {
+    border-radius: .75rem;
+}
+
+button, .cancel, .flex-wrapper {
+    font-size: inherit;
+    padding: 1rem;
+}
+
+button, .flex-wrapper {
+    border-radius: .75rem;
+}
+
+.container {
+    width: min(90%, 375px);
+    min-width: 18rem;
+    margin: 0 auto;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.container__img {
+    width: 100%;
+}
+
+.container__content {
+    background: #fff;
+    padding: 1.25rem;
+}
+
+.flex-wrapper {
+    padding: 1rem;
+    background: var(--clr-very-pale-blue);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-info p {
+    margin: 0;
+}
+
+@media (min-width:500px) {
+    main {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+
+    .container__content {
+        padding: 1.5rem;
+    }
+}
+
