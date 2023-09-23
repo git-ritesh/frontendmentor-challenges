@@ -58,4 +58,4 @@ How we can take the approach of making things responsive without too many comple
 
 ## Author
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [@stack_spirit](https://www.twitter.com/stack_spirit)
+- Twitter - [@sanatanispirit](https://www.twitter.com/sanatanispirit)

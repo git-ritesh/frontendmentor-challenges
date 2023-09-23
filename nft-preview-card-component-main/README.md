@@ -78,7 +78,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [@stack_spirit](https://www.twitter.com/sanatanispirit)
+- Twitter - [@sanatanispirit](https://www.twitter.com/sanatanispirit)
 
 
 ## Acknowledgments
