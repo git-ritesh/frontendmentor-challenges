@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [View](https://www.frontendmentor.io/solutions/responsive-order-summary-component-pBIlTpvH6h)
 - Live Site URL: [Click Here to View Webpage](https://stackritesh.me/frontendmentor-challenges/order-summary-component-main/index.html)
 
 ## My process
