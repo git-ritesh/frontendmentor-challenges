@@ -5,6 +5,14 @@
 
 body {
     background:hsl(233, 47%, 7%);
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -28,17 +36,10 @@ p {
     line-height: 1.75;
 }
 
-main {
-    min-height: 100dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .hero {
     background: hsl(244, 38%, 16%);
-    width: min(85%, 520px);
-    margin-block: 3rem;
+    width: min(85%, 1164px);
+    margin: 3rem auto;
     border-radius: .5rem;
     overflow: hidden;
     display: flex;
@@ -49,9 +50,16 @@ main {
     text-align: center;
     padding: 2rem 1.5rem;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     gap: 2rem;
 }
+
+.wrapper__intro-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .description {
     color: hsla(0, 0%, 100%, 0.75);
 }
@@ -69,4 +77,61 @@ main {
 .wrapper__img {
     width:100%;
     background: hsl(277, 64%, 61%);
+}
+.desktop-img {
+    display:none;
+}
+/* ============ FOR TABLETS, LAPTOP & DESKTOP SCREENS */
+@media (min-width:601px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        padding: 3em;
+    }
+    .hero {
+        width: 90%;
+        min-width: 918px;
+    }
+    img {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        object-position: right;
+    }
+    .desktop-img {
+        display:initial;
+    }
+    .mobile-img {
+        display: none;
+    }
+
+    .hero {
+        margin:0;
+        flex-wrap: nowrap;
+    }
+
+    .wrapper {
+        flex: 1 0 50%;
+    }
+
+    .wrapper__text {
+        padding: 4rem;
+        text-align: left;
+        justify-content: space-between;
+        /* gap:unset; */
+    }
+
+    picture {
+        width:100%;
+    }
+
+    .heading, .description, .stats-wrapper {
+        width: 80%;
+    }
+
+    .stats-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
