@@ -8,6 +8,7 @@ body {
     min-height: 100dvh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -109,6 +110,7 @@ p {
     .hero {
         margin:0;
         flex-wrap: nowrap;
+        max-height: 470px;
     }
 
     .wrapper {
