@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lexend Deca',serif;
+    font-size: 15px;
+    display: grid;
+    place-content: center;
+    min-height: 100dvh;
+}
+
+body,button {
+    background: hsl(0, 0%, 95%);
+}
+
+main {
+    /* border: 1px solid red; */
+    width: 90%;
+    width: min(90%, 700px);
+    margin: 50px auto;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display',serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+article {
+    padding: 2rem;
+}
+
+button {
+    margin-top: .5rem;
+    background: #fff;
+    border: none;
+    padding: .75em 2em;
+    border-radius: 4rem;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-family: inherit;
+    transition: all 0.1s ease-in-out;
+    outline:none;
+    /* makes text look transparent so container background shows through */
+    mix-blend-mode: screen;
+    color: #000;
+}
+button:active {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+}
+/* === CARD-BACKGROUNDS === */
+#sedan-card {
+    background: hsl(31, 77%, 52%);
+}
+#suv-card {
+    background: hsl(184, 100%, 22%);
+}
+#luxury-card{
+    background: hsl(179, 100%, 13%);
+}
+
+/* for Tablet Screens or Laptops & Desktops */
+@media (min-width:769px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+}
