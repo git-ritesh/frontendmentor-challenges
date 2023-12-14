@@ -1,18 +1,25 @@
 * {
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
+    /* border:2px solid; */
 }
 
 body {
     margin: 0;
     background: hsl(185, 75%, 39%);
-    text-align: center;
-    min-height: 100dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* border: 10px solid; */
 }
 
+main {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
 h1 {
     font-size: 18px;
     color: hsl(229, 23%, 23%);
@@ -22,12 +29,42 @@ hr {
     height: 1px;
     background-color: hsl(0, 0%, 90%);
 }
+/* ------------- For Background Pattern --------- */
+/* .top-pattern {
+    height: 50%;
+}
+
+.bottom-pattern {
+    height: 50%;
+    text-align: right;
+}
+
+.top-pattern, .bottom-pattern {
+    position: relative;
+}
+
+.top-pattern img {
+    margin-top: -10%;
+    margin-left: -10%;
+    max-height: 100%;
+}
+.bottom-pattern img {
+    max-height: 100%;
+    
+    
+} */
 
 .card {
+    text-align: center;
     width: min(90%, 20rem);
     border-radius: 1rem;
     overflow: hidden;
     background: #fff;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    z-index: 100;
 }
 
 .cover-pattern {
