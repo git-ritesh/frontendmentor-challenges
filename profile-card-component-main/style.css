@@ -4,10 +4,12 @@
     /* border:2px solid; */
 }
 
+html {
+    background: hsl(185, 75%, 39%);
+}
+
 body {
     margin: 0;
-    background: hsl(185, 75%, 39%);
-    /* border: 10px solid; */
 }
 
 main {
