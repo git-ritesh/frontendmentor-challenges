@@ -4,12 +4,12 @@
     /* border:2px solid; */
 }
 
-html {
-    background: hsl(185, 75%, 39%);
-}
-
 body {
     margin: 0;
+    background: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 35vh, left 50vw top 50vh;
+    background-repeat: no-repeat, no-repeat;
 }
 
 main {
@@ -31,30 +31,6 @@ hr {
     height: 1px;
     background-color: hsl(0, 0%, 90%);
 }
-/* ------------- For Background Pattern --------- */
-/* .top-pattern {
-    height: 50%;
-}
-
-.bottom-pattern {
-    height: 50%;
-    text-align: right;
-}
-
-.top-pattern, .bottom-pattern {
-    position: relative;
-}
-
-.top-pattern img {
-    margin-top: -10%;
-    margin-left: -10%;
-    max-height: 100%;
-}
-.bottom-pattern img {
-    max-height: 100%;
-    
-    
-} */
 
 .card {
     text-align: center;
