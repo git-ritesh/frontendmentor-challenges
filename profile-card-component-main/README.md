@@ -23,9 +23,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 **Desktop Design** 
-<img src='design/desktop-design.jpg' align='left'>
 
-<aside align='right'><b>Mobile Design</b></aside>
+<img src='design/desktop-design.jpg'>
+<p align='right'><b>Mobile Design</b></p>
 <img align='right' src='design/mobile-design.jpg'>
 
 ### Links
