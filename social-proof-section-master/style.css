@@ -1,9 +1,123 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    /* font-family: 'League Spartan', sans-serif; */
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+  min-width: 320px;
+  font-size: 15px;
+  padding: 5rem 0;
 }
 
+img {
+  max-width: 100%;
+}
+
+header,
+.testimonials {
+  width: 86%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+aside {
+  margin-block: 2.5rem;
+}
+
+.card__header, .flexbox, .item::before {
+  display: flex;
+}
+
+.item {
+  background: hsl(300, 24%, 96%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.item::before {
+  --icon-star: url(images/icon-star.svg) url(images/icon-star.svg)
+    url(images/icon-star.svg) url(images/icon-star.svg)
+    url(images/icon-star.svg);
+  content: var(--icon-star);
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.ultra-large-txt {
+  font-size: 2rem;
+  margin:0 0 2rem 0;
+
+}
+
+.description {
+  color: hsl(303, 10%, 48%);
+  margin: 0;
+}
+
+.name,
+.ultra-large-txt {
+  font-weight: bold;
+}
+
+.name {
+  margin: 0;
+  transform: translateX(-1.5rem);
+}
+
+.flexbox {
+  flex-direction: column;
+}
+
+.testimonials {
+  color: #fff;
+  gap: 1rem;
+}
+.testimonials-card {
+  background: hsl(300, 43%, 22%);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.name::after {
+  content: "Verified Buyer";
+  display: block;
+  font-weight: normal;
+  margin-top: 4px;
+  color: hsl(333, 80%, 69%);
+}
+
+.card__header {
+  height: 3rem;
+  align-items: center;
+}
+
+.card__header::before {
+  /* content: url(images/image-colton.jpg); */
+  transform: scale(0.45) translate(-40px, 0px);
+  border-radius: 100%;
+  overflow: hidden;
+
+  /* Method 2 */
+  /* content: '';
+  background-image: url(images/image-colton.jpg);
+  height: 40px;
+  width: 40px;
+  background-size: 40px 40px; */
+}
+.card__header.colton::before {
+  content: url(images/image-colton.jpg);
+}
+
+.card__header.irene::before {
+  content: url(images/image-irene.jpg);
+}
+
+.card__header.anne::before {
+  content: url(images/image-anne.jpg);
+}
