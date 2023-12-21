@@ -16,7 +16,7 @@ img {
 
 header,
 .testimonials {
-  width: 86%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -32,6 +32,9 @@ aside {
   display: flex;
 }
 
+.item, .ultra-large-txt {
+  color: hsl(300, 43%, 22%);
+}
 .item {
   background: hsl(300, 24%, 96%);
   padding: 1rem;
@@ -40,19 +43,17 @@ aside {
 }
 
 .item::before {
-  --icon-star: url(images/icon-star.svg) url(images/icon-star.svg)
-    url(images/icon-star.svg) url(images/icon-star.svg)
+  --icon-star: url(images/icon-star.svg) "\00a0 \00a0"  url(images/icon-star.svg) "\00a0 \00a0"
+    url(images/icon-star.svg) "\00a0 \00a0" url(images/icon-star.svg) "\00a0 \00a0"
     url(images/icon-star.svg);
   content: var(--icon-star);
   margin-bottom: 0.5rem;
   justify-content: center;
-  gap: 0.5rem;
 }
 
 .ultra-large-txt {
   font-size: 2rem;
   margin:0 0 2rem 0;
-
 }
 
 .description {
@@ -120,4 +121,8 @@ aside {
 
 .card__header.anne::before {
   content: url(images/image-anne.jpg);
+}
+
+.review {
+  margin-bottom: 0;
 }
