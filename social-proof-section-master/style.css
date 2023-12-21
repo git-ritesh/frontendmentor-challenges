@@ -8,10 +8,8 @@ body {
   min-width: 320px;
   font-size: 15px;
   padding: 5rem 0;
-}
-
-img {
-  max-width: 100%;
+  background: url(images/bg-pattern-top-mobile.svg) 0% 0% / 100% no-repeat,
+  url(images/bg-pattern-bottom-mobile.svg) no-repeat 0% 100% / 100% ;
 }
 
 header,
@@ -28,11 +26,14 @@ aside {
   margin-block: 2.5rem;
 }
 
-.card__header, .flexbox, .item::before {
+.card__header,
+.flexbox,
+.item::before {
   display: flex;
 }
 
-.item, .ultra-large-txt {
+.item,
+.ultra-large-txt {
   color: hsl(300, 43%, 22%);
 }
 .item {
@@ -43,9 +44,8 @@ aside {
 }
 
 .item::before {
-  --icon-star: url(images/icon-star.svg) "\00a0 \00a0"  url(images/icon-star.svg) "\00a0 \00a0"
-    url(images/icon-star.svg) "\00a0 \00a0" url(images/icon-star.svg) "\00a0 \00a0"
-    url(images/icon-star.svg);
+  --icon-star: url(images/icon-star.svg) "\00a0 \00a0"url(images/icon-star.svg) "\00a0 \00a0"url(images/icon-star.svg)
+    "\00a0 \00a0"url(images/icon-star.svg) "\00a0 \00a0"url(images/icon-star.svg);
   content: var(--icon-star);
   margin-bottom: 0.5rem;
   justify-content: center;
@@ -53,7 +53,7 @@ aside {
 
 .ultra-large-txt {
   font-size: 2rem;
-  margin:0 0 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .description {
