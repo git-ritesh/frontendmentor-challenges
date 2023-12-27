@@ -9,14 +9,17 @@ body {
 }
 
 main {
-  margin: 10dvh auto;
-  width: 86%;
+  margin: 10vh auto;
+  width: min(86%, 1440px);
   gap: 3rem;
 }
 
 .flex {
-  flex-direction: column;
   display: flex;
+}
+
+main, section.rating, section.review, .review__container {
+  flex-direction: column;
 }
 
 section, article {
@@ -32,9 +35,7 @@ p {
   margin: 0;
 }
 
-article h1,
-main > article p,
-section > div {
+.hero, section.rating {
   text-align: center;
 }
 
@@ -62,6 +63,7 @@ div {
 
 section article {
   background: hsl(300, 43%, 22%);
+  padding: 1.5rem;
 }
 
 .rating-container {
@@ -76,40 +78,48 @@ section article {
   margin-bottom: 0.5rem;
 }
 
-section article {
-  padding: 1.5rem;
-}
-
-.article__header.colton::before {
+.review__header.colton::before {
   content: url(images/image-colton.jpg);
 }
-.article__header.irene::before {
+.review__header.irene::before {
   content: url(images/image-irene.jpg);
 }
-.article__header.anne::before {
+.review__header.anne::before {
   content: url(images/image-anne.jpg);
 }
 
-.article__header {
+.review__header {
   flex-direction: row;
   align-items: center;
-  height: 2.5rem
+  height: 2.5rem;
 }
 
-.article__header::before {
+.review__header::before {
   transform: scale(0.45) translate(-40px, 0px);
   border-radius: 100%;
   overflow: hidden;
 }
 
-.article__header p {
+.review__header p {
     transform: translateX(-1.5rem);
 }
 
-.article__header p::after {
+.review__header p::after {
   content: "Verified Buyer";
   font-weight: normal;
   color: hsl(333, 80%, 67%);
   display: block;
   margin-top: 5px;
+}
+
+@media (min-width:601px) {
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width:769px) {
+  html {
+    font-size: 1.5rem;
+  }
 }
