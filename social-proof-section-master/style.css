@@ -10,8 +10,8 @@ body {
 
 main {
   margin: 10vh auto;
-  width: min(86%, 1440px);
-  gap: 3rem;
+  width: min(86%, 1284px);
+  row-gap: 3rem;
 }
 
 .flex {
@@ -33,6 +33,10 @@ h1 {
 
 p {
   margin: 0;
+}
+
+.hero__txt, .review__txt {
+  line-height: 1.5;
 }
 
 .hero, section.rating {
@@ -119,7 +123,68 @@ section article {
 }
 
 @media (min-width:769px) {
-  html {
-    font-size: 1.5rem;
+
+  main {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .hero {
+    width: 35%;
+    min-width: 305px;
+  }
+  section.rating {
+    width: 50%;
+  }
+
+  .hero {
+    text-align: left;
+  }
+
+  .hero__txt {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1025px) {
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  main {
+    row-gap: 4rem;
+  }
+  
+  section.flex.review {
+    flex-direction: row;
+  }
+
+  .review__container {
+    max-width: 416px;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .rating-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: initial;
+  }
+
+  .rating-container.center {
+    align-self: center;
+  }
+  .rating-container.end {
+    align-self: end;
+  }
+
+  .rating-container.start {
+    align-self: start;
+  }
+
+  .rating-container::before {
+    margin: 0;
   }
 }
