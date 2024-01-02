@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(images/bg-pattern-top-mobile.svg) left top / 100% no-repeat, url(images/bg-pattern-bottom-mobile.svg) left bottom / 100% no-repeat ;
 }
 
 main {
@@ -151,6 +152,7 @@ section article {
 @media (min-width:769px) {
     body {
         min-height: 100dvh;
+        background: url(images/bg-pattern-top-desktop.svg) left top / 40% no-repeat, url(images/bg-pattern-bottom-desktop.svg) right bottom / 75% no-repeat ;
     }
     main {
         flex-flow: row wrap;
