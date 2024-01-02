@@ -1,107 +1,132 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: "League Spartan", sans-serif;
+/* >>>>>>>>>> Mobile Screen <<<<<<<<<<< */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
 }
- 
+
+:root {
+    --font-size: 15px;
+}
+
 body {
-  margin: 0;
-  min-width: 20rem;
+    margin: 0;
+    min-width: 20rem;
+    font-size: var(--font-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
-  margin: 10vh auto;
-  width: min(86%, 1284px);
-  row-gap: 3rem;
+    margin: 10vh auto;
+    width: min(86%, 1284px);
+    row-gap: 3rem;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
-main, section.rating, section.review, .review__container {
-  flex-direction: column;
+main,
+section.rating,
+section.review,
+.review__container {
+    flex-direction: column;
 }
 
-section, article {
-  gap: 1rem;
+section,
+article {
+    gap: 1rem;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-top: 0;
+    font-size: 2.5rem;
+    margin-top: 0;
 }
 
 p {
-  margin: 0;
+    margin: 0;
 }
 
-.hero__txt, .review__txt {
-  line-height: 1.5;
+.hero__txt,
+.review__txt {
+    line-height: 1.5;
 }
 
-.hero, section.rating {
-  text-align: center;
+.hero,
+section.rating {
+    text-align: center;
 }
 
-main > article p {
-  color: hsl(305, 10%, 48%);
-  padding: 0 0.8rem;
+main>article p {
+    color: hsl(305, 10%, 48%);
+    padding: 0 0.8rem;
 }
 
 .clr-dark-magenta {
-  color: hsl(300, 43%, 22%);
+    color: hsl(300, 43%, 22%);
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
-section > article p {
-  color: #fff;
+section>article p {
+    color: #fff;
 }
 
 section article,
 div {
-  border-radius: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 section article {
-  background: hsl(300, 43%, 22%);
-  padding: 1.5rem;
+    background: hsl(300, 43%, 22%);
+    padding: 1.5rem;
 }
 
 .rating-container {
-  padding: 0.75rem 0;
-  background: hsl(300, 24%, 96%);
+    padding: 0.75rem;
+    background: hsl(300, 24%, 96%);
 }
+
 .rating-container::before {
-  content: url(images/icon-star.svg) "\00a0 \00a0"url(images/icon-star.svg) "\00a0 \00a0"url(images/icon-star.svg)
-    "\00a0 \00a0"url(images/icon-star.svg) "\00a0 \00a0"url(images/icon-star.svg);
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0.5rem;
+    --rating-icon:
+        url(images/icon-star.svg) "\00a0 \00a0"
+        url(images/icon-star.svg) "\00a0 \00a0"
+        url(images/icon-star.svg) "\00a0 \00a0"
+        url(images/icon-star.svg) "\00a0 \00a0"
+        url(images/icon-star.svg);
+    content: var(--rating-icon);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
 }
 
 .review__header.colton::before {
-  content: url(images/image-colton.jpg);
+    content: url(images/image-colton.jpg);
 }
+
 .review__header.irene::before {
-  content: url(images/image-irene.jpg);
+    content: url(images/image-irene.jpg);
 }
+
 .review__header.anne::before {
-  content: url(images/image-anne.jpg);
+    content: url(images/image-anne.jpg);
 }
 
 .review__header {
-  flex-direction: row;
-  align-items: center;
-  height: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+    height: 2.5rem;
 }
 
 .review__header::before {
-  transform: scale(0.45) translate(-40px, 0px);
-  border-radius: 100%;
-  overflow: hidden;
+    transform: scale(0.45) translate(-40px, 0px);
+    border-radius: 100%;
+    overflow: hidden;
 }
 
 .review__header p {
@@ -109,82 +134,110 @@ section article {
 }
 
 .review__header p::after {
-  content: "Verified Buyer";
-  font-weight: normal;
-  color: hsl(333, 80%, 67%);
-  display: block;
-  margin-top: 5px;
+    content: "Verified Buyer";
+    font-weight: normal;
+    color: hsl(333, 80%, 67%);
+    display: block;
+    margin-top: 5px;
 }
 
 @media (min-width:601px) {
-  html {
-    font-size: 1.25rem;
-  }
+    html {
+        font-size: 1.25rem;
+    }
 }
 
+/* >>>>>>>>>>>>>> For Tablet Screens <<<<<<<<<<< */
 @media (min-width:769px) {
+    body {
+        min-height: 100dvh;
+    }
+    main {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
 
-  main {
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
+    .hero {
+        width: 35%;
+        min-width: 305px;
+    }
 
-  .hero {
-    width: 35%;
-    min-width: 305px;
-  }
-  section.rating {
-    width: 50%;
-  }
+    section.rating {
+        width: 50%;
+    }
 
-  .hero {
-    text-align: left;
-  }
+    .hero {
+        text-align: left;
+    }
 
-  .hero__txt {
-    padding: 0;
-  }
+    .hero__txt {
+        padding: 0;
+    }
+
+    main>.hero>h1.hero__heading {
+        max-width: 20rem;
+    }
+
+    main>.hero>p.hero__txt {
+        max-width: 18rem;
+        line-height: 1rem;
+    }
 }
 
+/* >>>>>>>>>>>>> For Laptop Screens <<<<<<<<<<<<<< */
 @media (min-width: 1025px) {
 
-  body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-  main {
-    row-gap: 4rem;
-  }
-  
-  section.flex.review {
-    flex-direction: row;
-  }
+    /* main > * {
+        border: 1px solid red;
+    }   */
+    main>.hero,
+    main>.rating {
+        width: 45%;
+    }
 
-  .review__container {
-    max-width: 416px;
-    padding: 2.5rem 1.5rem;
-  }
+    main {
+        flex-flow: row;
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
 
-  .rating-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: initial;
-  }
+    main>.rating {
+        gap: .85rem;
+    }
 
-  .rating-container.center {
-    align-self: center;
-  }
-  .rating-container.end {
-    align-self: end;
-  }
+    main>.rating>.rating-container {
+        width: 75%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1.1rem;
+        padding: .55rem 1.4rem;
+    }
 
-  .rating-container.start {
-    align-self: start;
-  }
+    main>.rating>.rating-container::before {
+        margin-top: .3rem;
+    }
 
-  .rating-container::before {
-    margin: 0;
-  }
+
+    main>.rating>.start,
+    main>.review>.start {
+        align-self: flex-start;
+    }
+
+    main>.rating>.center,
+    main>.review>.center {
+        align-self: center;
+    }
+
+    main>.rating>.end,
+    main>.review>.end {
+        align-self: flex-end;
+    }
+
+    main>.review {
+        display: flex;
+        flex-flow: row;
+        min-height: 13.5rem;
+    }
+
 }
