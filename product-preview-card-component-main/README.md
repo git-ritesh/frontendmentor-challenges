@@ -76,5 +76,6 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 - Some more resources : [w3Schools Reference](https://www.w3schools.com/css/css3_flexbox.asp) &bull; [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
 
 ## Author
+- Website - [stackritesh.me](https://stackritesh.me/)
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [Spirit](https://www.twitter.com/sanatanispirit)
+- Twitter - [@shadowlurk3r](https://www.twitter.com/shadowlurk3r)
