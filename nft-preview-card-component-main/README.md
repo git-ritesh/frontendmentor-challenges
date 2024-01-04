@@ -76,7 +76,7 @@ Users should be able to:
 - [Unused Use Cases for Pseudo Elements](https://ishadeed.com/article/unusual-use-cases-pseudo-elements/) - This article contains some of the usecases of pseudo elements whic are not often used while it can come in handy.
 
 ## Author
-
+- Website - [stackritesh.me](https://stackritesh.me/)
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
 - Twitter - [@shadowlurk3r](https://www.twitter.com/shadowlurk3r)
 
