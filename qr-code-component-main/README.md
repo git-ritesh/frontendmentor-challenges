@@ -28,7 +28,7 @@ QR Code Component Responsive challenge is a very basic challenge in which you ha
 ### Links
 
 - Solution URL: [View](https://www.frontendmentor.io/solutions/responsive-qr-code-component-MFDbdX6DxU)
-- Live Site URL: [Live Webpage](https://git-ritesh.github.io/frontendmentor-challenges/qr-code-component-main/index.html)
+- Live Site URL: [Visit](https://git-ritesh.github.io/frontendmentor-challenges/qr-code-component-main/index.html)
 
 ## My process
 
@@ -57,5 +57,6 @@ This was the first ever mobile-first approach I followed to make something. Thou
 How we can take the approach of making things responsive without too many complexities.
 
 ## Author
+- Website - [stackritesh.me](https://stackritesh.me/)
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [@sanatanispirit](https://www.twitter.com/sanatanispirit)
+- Twitter - [@shadowlurk3r](https://www.twitter.com/shadowlurk3r)
