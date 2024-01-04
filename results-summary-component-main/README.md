@@ -90,6 +90,7 @@ So I'd Like to explore & learn more about Grid, So that I can use also use Grid 
  [Learn Grid](https://mozilladevelopers.github.io/playground/css-grid) - Awesome resource for learning Grid by Mozilla developer Network.
 
 ## Author
+- Website - [stackritesh.me](https://stackritesh.me/)
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [@sanatanispirit](https://www.twitter.com/sanatanispirit)
+- Twitter - [@shadowlurk3r](https://www.twitter.com/shadowlurk3r)
 
