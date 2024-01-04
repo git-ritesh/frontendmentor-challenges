@@ -31,8 +31,8 @@ Desktop Design
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [view](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-fG9V6S--Ap)
+- Live Site URL: [visit](https://stackritesh.me/frontendmentor-challenges/3-column-preview-card-component-main/index.html)
 
 ### Built with
 
