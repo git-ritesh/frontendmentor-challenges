@@ -69,6 +69,7 @@ I want to focus on these areas in the upcoming projects.
 - [Semantic HTML Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) - This helped me to learn about some awesome Semantic HTML Elements which are often used in web development.
 
 ## Author
+  Website - [stackritesh.me](https://stackritesh.me/)
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
 - Twitter - [@shadowlurk3r](https://www.twitter.com/shadowlurk3r)
 
