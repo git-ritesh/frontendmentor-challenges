@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [View](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-HJXwpQuEEm)
 - Live Site URL: [See Live](https://stackritesh.me/frontendmentor-challenges/stats-preview-card-component-main/index.html)
 
 ## My process
@@ -66,6 +66,6 @@ img {
 ```
 
 ## Author
-
+- Website - [stackritesh.me](https://stackritesh.me/)
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [@sanatanispirit](https://www.twitter.com/sanatanispirit)
+- Twitter - [@shadowlurk3r](https://www.twitter.com/shadowlurk3r)
