@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-component-DpX3wwT3yY)
-- Live Site URL: [View Webpage](https://git-ritesh.github.io/frontendmentor-challenges/nft-preview-card-component-main/index.html)
+- Solution URL: [View](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-component-DpX3wwT3yY)
+- Live Site URL: [Visit](https://git-ritesh.github.io/frontendmentor-challenges/nft-preview-card-component-main/index.html)
 
 ## My process
 
@@ -78,7 +78,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
-- Twitter - [@sanatanispirit](https://www.twitter.com/sanatanispirit)
+- Twitter - [@sanatanispirit](https://www.twitter.com/shadowlurk3r)
 
 
 ## Acknowledgments
