@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [view](https://www.frontendmentor.io/solutions/blog-preview-card-copmponent-responsive-jaFhx0fx0p)
 - Live Site URL: [Visit](https://git-ritesh.github.io/frontendmentor-challenges/blog-preview-card-main/index.html)
 
 ## My process
