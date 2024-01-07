@@ -19,9 +19,7 @@ main {
     place-content: center;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
+span {
     font-weight: bold;
     display: block;
 }
@@ -66,7 +64,7 @@ img {
 }
 
 .card__description {
-    color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 45.9%);
     font-size: 14px;
 }
 
