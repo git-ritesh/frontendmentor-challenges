@@ -14,7 +14,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -62,7 +61,3 @@ I'm looking forward to learn Javascript for making my webpages more awesome with
 - Website - [stackritesh.me](https://www.stackritesh.me/)
 - Frontend Mentor - [@git-ritesh](https://www.frontendmentor.io/profile/git-ritesh)
 - Twitter - [@shadowlurk3r](https://www.twitter.com/shadowlurk3r)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
