@@ -58,6 +58,7 @@ img {
 
 .card__heading {
     text-wrap: nowrap;
+    cursor: pointer;
 }
 .card__heading:hover {
     color: hsl(47, 88%, 63%);
