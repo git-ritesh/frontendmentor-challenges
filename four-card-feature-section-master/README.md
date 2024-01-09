@@ -29,7 +29,7 @@ Users should be able to:
 ![desktop image](design/desktop-design.jpg)
 
 <p align="right"><b>Mobile View</b></p>
-<img width="280px" align="right" src="design/mobile-design.jpg" alt="mobile design">
+<img width="320px" align="right" src="design/mobile-design.jpg" alt="mobile design">
 
 ### Links
 
