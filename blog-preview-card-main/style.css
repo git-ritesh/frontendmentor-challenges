@@ -32,9 +32,9 @@ img {
 .card {
     min-width: 280px;
     width: 90%;
-    max-width: 375px;
+    max-width: 25rem;
     background: #fff;
-    padding: 1.5rem;
+    padding: 22px;
     margin: 0 auto;
     border-radius: 1.5rem;
     border: 1px solid black;
@@ -43,7 +43,7 @@ img {
 
 .card__img {
     border-radius: .75rem;
-    height: 13rem;
+    height: 12rem;
     object-fit: cover;
 }
 
