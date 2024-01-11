@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: hsl(204, 43%, 93%);
+}
+
+main {
+    width: 83%;
+    margin: 10dvh auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px 10px hsla(217, 22%, 67%, 0.251);
+}
+h1, h2 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 20px;
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.hero, .pricing, .feature {
+    padding: 8%;
+    margin: 0 auto;
+}
+
+.hero__content, .feature pre {
+    margin-bottom: 0;
+}
+
+.hero {
+    background: #fff;
+    padding-block: 2rem;
+}
+
+.hero__subheading {
+    font-size: 15px;
+    color: hsl(71, 73%, 54%);
+}
+
+.hero__content {
+    font-size: 14px;
+    line-height: 2;
+    color: hsl(218, 22%, 67%);
+}
+
+.pricing, .feature {
+    color: #fff;
+}
+
+.pricing {
+    background: hsl(179, 62%, 43%);
+}
+
+.ultra-large-txt {
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.price__gray {
+    opacity: .8;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: hsl(71, 73%, 54%);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: .25rem;
+    margin-top: 1rem;
+    box-shadow: 0px 5px 8px rgba(75, 75, 75, 0.446);
+    transition: all ease-in-out .3s;
+}
+button:hover {
+    opacity: .8;
+}
+
+.feature {
+    background: hsl(179, 62%, 50%);
+    
+}
+
+.feature pre {
+    line-height: 1.5;
+}
