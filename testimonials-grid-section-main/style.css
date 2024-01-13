@@ -1,0 +1,106 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-moderate-violet:hsl(263, 55%, 52%);
+    --clr-very-dark-grayish-blue:hsl(217, 19%, 35%);
+    --clr-very-blackish-blue: hsl(219, 29%, 14%);
+    --clr-light-gray:hsl(0, 0%, 81%);
+    --clr-light-grayish-blue:hsl(210, 46%, 95%);
+}
+
+img {
+    height: 32px;
+    border-radius: 50%;
+}
+
+p {
+    font-weight: 500;
+    color: #fff;
+}
+
+body {
+    min-width: 320px;
+    background: var(--clr-light-grayish-blue);
+}
+
+main {
+    width: 87.4%;
+    margin: 4.4375rem auto;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.grid-items {
+    border-radius: 8px;
+    padding: 1.5rem 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item1 .profile__img, .item4 .profile__img {
+    border: 2px solid hsl(263, 55%, 59%);
+}
+
+.item1 {
+    background: var(--clr-moderate-violet) url(images/bg-pattern-quotation.svg) no-repeat top right 1.5rem;
+}
+
+.profile-container {
+    display: flex;
+    height: 32px;
+    gap: 1rem;
+}
+.profile__name {
+    font-size: 13px;
+    color: #fff;
+}
+.profile__name::after {
+    content: 'Verified Graduate';
+    opacity: .5;
+    display: block;
+    margin-top: 2px;
+    font-size: 11px;
+}
+.profile__short-review,.profile__full-review {
+    padding-inline: 3px;
+}
+.item1 .profile__full-review {
+    padding-left: 4px;
+    padding-right: 15px;
+}
+
+.profile__short-review {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.profile__full-review {
+    opacity: .7;
+    line-height: 1.385;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.item2 {
+    background: var(--clr-very-dark-grayish-blue);
+}
+
+.item3, .item5 {
+    background: #fff;
+}
+.item3 p, .item5 p {
+    color: var(--clr-very-dark-grayish-blue);
+}
+
+.item4 {
+    background: var(--clr-very-blackish-blue);
+}
+
+.item5 .profile__short-review {
+    padding-left: 2px;
+}
