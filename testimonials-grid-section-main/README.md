@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [View](https://www.frontendmentor.io/solutions/testimonials-grid-section-responsive-OswEwT07pK)
 - Live Site URL: [visit](https://git-ritesh.github.io/frontendmentor-challenges/testimonials-grid-section-main/index.html)
 
 ## My process
