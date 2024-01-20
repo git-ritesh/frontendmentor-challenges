@@ -54,6 +54,10 @@ main {
     color: #fff;
 }
 
+.profile__name--black {
+    color: hsl(217, 19%, 35%);
+}
+
 .profile__name::after {
     content: 'Verified Graduate';
     opacity: .5;
